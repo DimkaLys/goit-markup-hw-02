@@ -1,0 +1,148 @@
+:root {
+  --logo-color: #000000;
+  --main-text-color: #757575;
+  --tittle-color: #212121;
+  --accent-color: #2196f3;
+  --dark-bg-color: #2f303a;
+  --page-tittle-color: #ffffff;
+  --tittle-font-logo: 'Raleway, sans-serif';
+  --tittle-font: 'Roboto', sans-serif;
+}
+
+body {
+  font-family: var(--tittle-font);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+/* лого */
+.link-logo {
+  font-family: var(--tittle-font-logo);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  color: inherit;
+}
+
+.text-logo {
+  color: var(--accent-color);
+}
+
+.header-logo {
+  color: var(--logo-color);
+}
+
+/* ссылки */
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+.header {
+  font-family: var(--tittle-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--tittle-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.dark-bg {
+  background-color: var(--dark-bg-color);
+}
+
+/* кнопка */
+.button {
+  background-color: var(--accent-color);
+  font-family: var(--tittle-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--page-tittle-color);
+}
+
+.button-cursor {
+  cursor: pointer;
+}
+
+/* заголовки */
+.page-tittle {
+  font-family: var(--tittle-font);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--page-tittle-color);
+}
+
+.section-tittle {
+  font-family: var(--tittle-font);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--tittle-color);
+}
+
+.main-tittle {
+  font-family: var(--tittle-font);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  color: var(--tittle-color);
+}
+
+.section-item {
+  text-align: center;
+}
+
+.list-tittle {
+  font-family: var(--tittle-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188;
+  color: var(--tittle-color);
+}
+
+.list-text {
+  font-family: var(--tittle-font);
+  font-size: 16px;
+  line-height: 1.188;
+  color: var(--main-text-color);
+}
+
+/* footer */
+.footer-link {
+  font-family: var(--tittle-font);
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-logo {
+  color: var(--page-tittle-color);
+}
+
+address {
+  font-style: normal;
+  color: var(--page-tittle-color);
+}
