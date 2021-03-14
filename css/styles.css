@@ -3,8 +3,10 @@
   --main-text-color: #757575;
   --tittle-color: #212121;
   --accent-color: #2196f3;
+  --button-color: #188ce8;
   --dark-bg-color: #2f303a;
   --page-tittle-color: #ffffff;
+  --light-bg-color: #f5f4fa;
   --tittle-font-logo: 'Raleway, sans-serif';
   --tittle-font: 'Roboto', sans-serif;
 }
@@ -77,8 +79,27 @@ body {
   color: var(--page-tittle-color);
 }
 
+.button-main:hover {
+  background-color: var(--button-color);
+}
+
 .button-cursor {
   cursor: pointer;
+}
+
+.button-section {
+  background-color: var(--light-bg-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--tittle-color);
+}
+
+.button-list:hover {
+  background-color: var(--accent-color);
+  color: var(--page-tittle-color);
 }
 
 /* заголовки */
